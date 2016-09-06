@@ -10,4 +10,5 @@
 För att göra din site publik (för omvärlden);
 - skape en fil i mappen med filer som heter <code>Caddyfile</code> med följande innehåll;
 - 0.0.0.0:8080
+- starta caddy i mappen
 - - ta reda på ditt IP och surfa in på: <code>DITT-IP:8080</code>
