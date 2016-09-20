@@ -3,12 +3,26 @@
   <head>
     <title>en fin sida</title>
     <meta charset="utf-8">
+    <script>
+/*
+    function showText() {
+      document.getElementById('myText').style.visibility='visible';
+    }
+
+    function hideText() {
+      document.getElementById('myText').style.visibility='hidden';
+    }
+*/
+    function showHideText(id, showhide) {
+      document.getElementById(id).style.visibility = showhide;
+    }
+    </script>
   </head>
   <body>
 
     <p id="myText">LITE TEXT I DENNA HÄRINGA P-TAGGEN</p><br />
-    <p onclick="document.getElementById('myText').style.visibility='visible'">Visa</p>
-    <p onclick="document.getElementById('myText').style.visibility='hidden'">Dölj</p>
+    <p onclick="showHideText('myText', 'visible');">Visa</p>
+    <p onclick="showHideText('myText', 'hidden');">Dölj</p>
 
 
   </body>
